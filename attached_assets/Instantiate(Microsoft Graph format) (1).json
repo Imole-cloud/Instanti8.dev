@@ -1,0 +1,379 @@
+{
+	"id": "d52ec8de-5da7-4d7f-afd8-87442f746643",
+	"deletedDateTime": null,
+	"appId": "4a7525be-f9dd-437b-bf77-9a5a87bb5129",
+	"applicationTemplateId": null,
+	"disabledByMicrosoftStatus": null,
+	"createdDateTime": "2025-06-04T19:30:03Z",
+	"displayName": "Instantiate",
+	"description": null,
+	"groupMembershipClaims": null,
+	"identifierUris": [
+		"api://4a7525be-f9dd-437b-bf77-9a5a87bb5129"
+	],
+	"isDeviceOnlyAuthSupported": null,
+	"isFallbackPublicClient": true,
+	"nativeAuthenticationApisEnabled": null,
+	"notes": null,
+	"publisherDomain": "imoleauroragmail.onmicrosoft.com",
+	"serviceManagementReference": null,
+	"signInAudience": "AzureADMultipleOrgs",
+	"tags": [],
+	"tokenEncryptionKeyId": null,
+	"samlMetadataUrl": null,
+	"defaultRedirectUri": null,
+	"certification": null,
+	"optionalClaims": null,
+	"requestSignatureVerification": null,
+	"addIns": [],
+	"api": {
+		"acceptMappedClaims": null,
+		"knownClientApplications": [],
+		"requestedAccessTokenVersion": null,
+		"oauth2PermissionScopes": [
+			{
+				"adminConsentDescription": "Allowing api calls",
+				"adminConsentDisplayName": "Instatiate",
+				"id": "214ea793-163b-414c-96ee-014ac1d67320",
+				"isEnabled": true,
+				"type": "User",
+				"userConsentDescription": null,
+				"userConsentDisplayName": null,
+				"value": "apiconnect"
+			}
+		],
+		"preAuthorizedApplications": [
+			{
+				"appId": "4a7525be-f9dd-437b-bf77-9a5a87bb5129",
+				"delegatedPermissionIds": [
+					"214ea793-163b-414c-96ee-014ac1d67320"
+				]
+			}
+		]
+	},
+	"appRoles": [
+		{
+			"allowedMemberTypes": [
+				"User",
+				"Application"
+			],
+			"description": "Ability toaccept api call for services",
+			"displayName": "Instatiate",
+			"id": "e458d02f-fa3b-44cd-9175-6d50958e246f",
+			"isEnabled": true,
+			"origin": "Application",
+			"value": "api://4a7525be-f9dd-437b-bf77-9a5a87bb5129/apiconnect"
+		}
+	],
+	"info": {
+		"logoUrl": null,
+		"marketingUrl": null,
+		"privacyStatementUrl": null,
+		"supportUrl": null,
+		"termsOfServiceUrl": null
+	},
+	"keyCredentials": [],
+	"parentalControlSettings": {
+		"countriesBlockedForMinors": [],
+		"legalAgeGroupRule": "Allow"
+	},
+	"passwordCredentials": [
+		{
+			"customKeyIdentifier": null,
+			"displayName": "Instati8",
+			"endDateTime": "2026-12-02T00:23:36.029Z",
+			"hint": "CYo",
+			"keyId": "b5afed01-d5e1-4c1c-9834-5431940b0f25",
+			"secretText": null,
+			"startDateTime": "2025-06-04T23:23:36.029Z"
+		},
+		{
+			"customKeyIdentifier": null,
+			"displayName": "Instatiate",
+			"endDateTime": "2025-12-01T20:30:23.207Z",
+			"hint": "dE8",
+			"keyId": "2f98f476-c80a-49af-b573-0a45ff356597",
+			"secretText": null,
+			"startDateTime": "2025-06-04T19:30:23.207Z"
+		}
+	],
+	"publicClient": {
+		"redirectUris": []
+	},
+	"requiredResourceAccess": [
+		{
+			"resourceAppId": "00000003-0000-0000-c000-000000000000",
+			"resourceAccess": [
+				{
+					"id": "ebfcd32b-babb-40f4-a14b-42706e83bd28",
+					"type": "Scope"
+				},
+				{
+					"id": "e4aa47b9-9a69-4109-82ed-36ec70d85ff1",
+					"type": "Scope"
+				},
+				{
+					"id": "5af8c3f5-baca-439a-97b0-ea58a435e269",
+					"type": "Scope"
+				},
+				{
+					"id": "9084c10f-a2d6-4713-8732-348def50fe02",
+					"type": "Scope"
+				},
+				{
+					"id": "3361d15d-be43-4de6-b441-3c746d05163d",
+					"type": "Scope"
+				},
+				{
+					"id": "7b8a2d34-6b3f-4542-a343-54651608ad81",
+					"type": "Scope"
+				},
+				{
+					"id": "af2819c9-df71-4dd3-ade7-4d7c9dc653b7",
+					"type": "Scope"
+				},
+				{
+					"id": "ef4b5d93-3104-4664-9053-a5c49ab44218",
+					"type": "Scope"
+				},
+				{
+					"id": "0b7643bb-5336-476f-80b5-18fbfbc91806",
+					"type": "Scope"
+				},
+				{
+					"id": "a66a5341-e66e-4897-9d52-c2df58c2bfb9",
+					"type": "Scope"
+				},
+				{
+					"id": "e03cf23f-8056-446a-8994-7d93dfc8b50e",
+					"type": "Scope"
+				},
+				{
+					"id": "1b6ff35f-31df-4332-8571-d31ea5a4893f",
+					"type": "Scope"
+				},
+				{
+					"id": "c67b52c5-7c69-48b6-9d48-7b3af3ded914",
+					"type": "Scope"
+				},
+				{
+					"id": "88e58d74-d3df-44f3-ad47-e89edf4472e4",
+					"type": "Scope"
+				},
+				{
+					"id": "1ca167d5-1655-44a1-8adf-1414072e1ef9",
+					"type": "Scope"
+				},
+				{
+					"id": "3db89e36-7fa6-4012-b281-85f3d9d9fd2e",
+					"type": "Scope"
+				},
+				{
+					"id": "af281d3a-030d-4122-886e-146fb30a0413",
+					"type": "Scope"
+				},
+				{
+					"id": "4bae2ed4-473e-4841-a493-9829cfd51d48",
+					"type": "Scope"
+				},
+				{
+					"id": "ffa91d43-2ad8-45cc-b592-09caddeb24bb",
+					"type": "Scope"
+				},
+				{
+					"id": "c79f8feb-a9db-4090-85f9-90d820caa0eb",
+					"type": "Scope"
+				},
+				{
+					"id": "bdfbf15f-ee85-4955-8675-146e8e5296b5",
+					"type": "Scope"
+				},
+				{
+					"id": "84bccea3-f856-4a8a-967b-dbe0a3d53a64",
+					"type": "Scope"
+				},
+				{
+					"id": "b0df437d-d341-4df0-aa3e-89ca81a1207f",
+					"type": "Scope"
+				},
+				{
+					"id": "6768d3af-4562-48ff-82d2-c5e19eb21b9c",
+					"type": "Scope"
+				},
+				{
+					"id": "89d944f2-2011-44ad-830c-aa9bf5ef2319",
+					"type": "Scope"
+				},
+				{
+					"id": "104a7a4b-ca76-4677-b7e7-2f4bc482f381",
+					"type": "Scope"
+				},
+				{
+					"id": "27608d7c-2c66-4cad-a657-951d575f5a60",
+					"type": "Scope"
+				},
+				{
+					"id": "16786f81-40d2-4116-bb26-d1a753bf0b20",
+					"type": "Scope"
+				},
+				{
+					"id": "a78fd341-0672-4792-a8ae-a5925b2546eb",
+					"type": "Scope"
+				},
+				{
+					"id": "e4c9e354-4dc5-45b8-9e7c-e1393b0b1a20",
+					"type": "Scope"
+				},
+				{
+					"id": "ba78b16f-1e01-41b6-89ca-73e0a32b304c",
+					"type": "Scope"
+				},
+				{
+					"id": "ee3409fe-617f-43cf-bd1e-fc8b38049e69",
+					"type": "Scope"
+				},
+				{
+					"id": "5ff2f415-e0f1-4d11-bfd0-6d87c0f667fd",
+					"type": "Scope"
+				},
+				{
+					"id": "6c8c71d2-c7e1-45b0-ac6d-1d2724fba6ae",
+					"type": "Scope"
+				},
+				{
+					"id": "4a72c235-a50d-4870-b598-fd88fd1fa074",
+					"type": "Scope"
+				},
+				{
+					"id": "30630b65-ed12-4a81-9130-e3a964109fae",
+					"type": "Scope"
+				},
+				{
+					"id": "1d9e7ac3-0eca-442c-82f9-e92625af6e6d",
+					"type": "Scope"
+				},
+				{
+					"id": "57b030f1-8c35-469c-b0d9-e4a077debe70",
+					"type": "Scope"
+				},
+				{
+					"id": "ba6d575a-1344-4516-b777-1404f5593057",
+					"type": "Scope"
+				},
+				{
+					"id": "444ed4b6-0554-4dc6-8e9c-3f9a34ee3ff6",
+					"type": "Scope"
+				},
+				{
+					"id": "a0244d16-171c-4496-8ffb-7b9b6954d339",
+					"type": "Scope"
+				},
+				{
+					"id": "af598c63-4292-4437-b925-e996354d3854",
+					"type": "Scope"
+				},
+				{
+					"id": "96d46335-d92d-41b8-bc9f-273a692381ea",
+					"type": "Scope"
+				},
+				{
+					"id": "b4e98de1-4600-4e90-b5e1-7c1dfef04e5c",
+					"type": "Scope"
+				},
+				{
+					"id": "94b36f78-434f-4904-8c08-421d9a9c1dc2",
+					"type": "Scope"
+				},
+				{
+					"id": "9f89e109-94b9-4c9b-b4fc-98cdaa54f574",
+					"type": "Scope"
+				},
+				{
+					"id": "465a38f9-76ea-45b9-9f34-9e8b0d4b0b42",
+					"type": "Scope"
+				},
+				{
+					"id": "2b9c4092-424d-4249-948d-b43879977640",
+					"type": "Scope"
+				},
+				{
+					"id": "305b375b-00fe-48bf-81bc-e8d78954c1b6",
+					"type": "Scope"
+				},
+				{
+					"id": "599abf67-f72b-4b5f-98a3-cb38fe646118",
+					"type": "Scope"
+				},
+				{
+					"id": "ad46d60e-1027-4b75-af88-7c14ccf43a19",
+					"type": "Scope"
+				},
+				{
+					"id": "5252ec4e-fd40-4d92-8c68-89dd1d3c6110",
+					"type": "Scope"
+				},
+				{
+					"id": "aeb2982d-632d-4155-b533-18756ab6fdd8",
+					"type": "Scope"
+				},
+				{
+					"id": "4704e5b2-0ada-4aa0-b18c-00ad7525bc06",
+					"type": "Scope"
+				},
+				{
+					"id": "64a6cdd6-aab1-4aaf-94b8-3cc8405e90d0",
+					"type": "Scope"
+				},
+				{
+					"id": "7427e0e9-2fba-42fe-b0c0-848c9e6a8182",
+					"type": "Scope"
+				},
+				{
+					"id": "37f7f235-527c-4136-accd-4a02d197296e",
+					"type": "Scope"
+				},
+				{
+					"id": "14dad69e-099b-42c9-810b-d002981feec1",
+					"type": "Scope"
+				},
+				{
+					"id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+					"type": "Scope"
+				}
+			]
+		}
+	],
+	"verifiedPublisher": {
+		"displayName": null,
+		"verifiedPublisherId": null,
+		"addedDateTime": null
+	},
+	"web": {
+		"homePageUrl": null,
+		"logoutUrl": null,
+		"redirectUris": [
+			"https://instantiate.dev"
+		],
+		"implicitGrantSettings": {
+			"enableAccessTokenIssuance": false,
+			"enableIdTokenIssuance": true
+		},
+		"redirectUriSettings": [
+			{
+				"uri": "https://instantiate.dev",
+				"index": null
+			}
+		]
+	},
+	"servicePrincipalLockConfiguration": {
+		"isEnabled": true,
+		"allProperties": true,
+		"credentialsWithUsageVerify": true,
+		"credentialsWithUsageSign": true,
+		"identifierUris": false,
+		"tokenEncryptionKeyId": true
+	},
+	"spa": {
+		"redirectUris": []
+	}
+}

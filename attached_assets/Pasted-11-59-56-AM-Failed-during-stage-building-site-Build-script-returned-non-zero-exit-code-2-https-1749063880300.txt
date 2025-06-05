@@ -1,0 +1,81 @@
+11:59:56 AM: Failed during stage 'building site': Build script returned non-zero exit code: 2 (https://ntl.fyi/exit-code-2)
+11:59:56 AM: Netlify Build                                                 
+11:59:56 AM: ────────────────────────────────────────────────────────────────
+11:59:56 AM: ​
+11:59:56 AM: ❯ Version
+11:59:56 AM:   @netlify/build 33.4.0
+11:59:56 AM: ​
+11:59:56 AM: ❯ Flags
+11:59:56 AM:   accountId: 67c1db240b1d2629511548e6
+11:59:56 AM:   baseRelDir: true
+11:59:56 AM:   buildId: 684097904b415a3e19b38a5e
+11:59:56 AM:   deployId: 684097904b415a3e19b38a60
+11:59:56 AM: ​
+11:59:56 AM: ❯ Current directory
+11:59:56 AM:   /opt/build/repo
+11:59:56 AM: ​
+11:59:56 AM: ❯ Config file
+11:59:56 AM:   /opt/build/repo/netlify.toml
+11:59:56 AM: ​
+11:59:56 AM: ❯ Context
+11:59:56 AM:   production
+11:59:56 AM: ​
+11:59:56 AM: build.command from netlify.toml                               
+11:59:56 AM: ────────────────────────────────────────────────────────────────
+11:59:56 AM: ​
+11:59:56 AM: $ npm run build:netlify
+11:59:56 AM: npm error Missing script: "build:netlify"
+11:59:56 AM: npm error
+11:59:56 AM: npm error To see a list of scripts, run:
+11:59:56 AM: npm error   npm run
+11:59:56 AM: npm error A complete log of this run can be found in: /opt/buildhome/.npm/_logs/2025-06-04T18_59_56_229Z-debug-0.log
+11:59:56 AM: ​
+11:59:56 AM: "build.command" failed                                        
+11:59:56 AM: ────────────────────────────────────────────────────────────────
+11:59:56 AM: ​
+11:59:56 AM:   Error message
+11:59:56 AM:   Command failed with exit code 1: npm run build:netlify (https://ntl.fyi/exit-code-1)
+11:59:56 AM: ​
+11:59:56 AM:   Error location
+11:59:56 AM:   In build.command from netlify.toml:
+11:59:56 AM:   npm run build:netlify
+11:59:56 AM: ​
+11:59:56 AM:   Resolved config
+11:59:56 AM:   build:
+11:59:56 AM:     command: npm run build:netlify
+11:59:56 AM:     commandOrigin: config
+11:59:56 AM:     environment:
+11:59:56 AM:       - NODE_VERSION
+11:59:56 AM:       - NPM_VERSION
+11:59:56 AM:     publish: /opt/build/repo/dist
+11:59:56 AM:     publishOrigin: config
+11:59:56 AM:   functions:
+11:59:56 AM:     '*':
+11:59:56 AM:       external_node_modules:
+11:59:56 AM:         - '@azure/arm-containerinstance'
+11:59:56 AM:         - '@azure/arm-appservice'
+11:59:56 AM:         - '@azure/identity'
+11:59:56 AM:       node_bundler: esbuild
+11:59:56 AM:   headers:
+11:59:56 AM:     - for: /api/*
+      values:
+        Access-Control-Allow-Headers: Content-Type, Authorization
+        Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+        Access-Control-Allow-Origin: '*'
+    - for: /*
+      values:
+        Referrer-Policy: strict-origin-when-cross-origin
+        X-Content-Type-Options: nosniff
+        X-Frame-Options: DENY
+  headersOrigin: config
+  redirects:
+    - from: /api/*
+      status: 200
+      to: /.netlify/functions/server/:splat
+    - from: /*
+      status: 200
+      to: /index.html
+  redirectsOrigin: config
+11:59:56 AM: Build failed due to a user error: Build script returned non-zero exit code: 2
+11:59:56 AM: Failing build: Failed to build site
+11:59:57 AM: Finished processing build request in 27.848s
